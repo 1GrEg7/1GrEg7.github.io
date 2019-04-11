@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type = "text/javascript"
+        src = "http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
+        </script>
+        <style type = "text/css">
+        #menu{
+            
+            border:1px solid rgb(0, 0, 0);
+            color:white;
+            width: 178px;
+            padding: 7px;
+            margin: 0;
+            background-color: rgb(61, 54, 54);
+            cursor: pointer;
+            
+        }
+        #menu:hover{
+            color: aqua;
+        }
+        #list{
+            border-bottom: 4px solid;
+            width: 192px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            
+            
+        }
+
+        #list li{
+            padding:6px;
+            border-width:1px;
+            border-bottom:solid wheat;
+            background-color: yellowgreen; 
+           
+        }
+        </style>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#menu").click(function(){$("#list").slideToggle(1000)});
+            $("#menu").hover(function(){});
+            $("#menu").mouseover(function(){$("menu").css("background-color",)})
+            $("#menu").mouseout(function(){$("menu").css("background-color",)})
+        });
+        </script>
+    </head>
+    <body>
+        <p id = "menu"> МЕНЮ</p>
+        <ul id= "list">
+            <li>О нас</li>
+            <li>Товары</li>
+            <li>Контакты</li>
+            
+        </ul>
+
+    </body>
+</html>

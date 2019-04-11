@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type = "text/javascript"
+        src = "http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
+        </script>
+        <script type = "text/javascript">
+        $(document).ready(function(){
+            $("#but1").click(function(){ $("#par").fadeOut(3000) });
+            $("#but2").click(function(){ $("#par").fadeIn(3000) });
+            $("#but3").click(function(){ $("#par").fadeTo(3000, 0.3) });
+            $("#but3").click(function(){ $("#par").fadeTo(3000, 0.8) });
+            
+        
+        
+        });
+        
+        </script>
+        
+    </head>
+    <body>
+        <p id ="par" style="font-size:20px">
+            Я - обзац к которому будут применяться различные стили
+        </p>
+        <input id = "but1" type="button" value="Постепенное скрытие">
+        <br><br>
+        <input id = "but2" type="button" value="Постепенное отображение">
+        <br><br>
+        <input id = "but3" type="button" value="Постепенное скрытие до прозрачности 0,3">
+        <br><br>
+        <input id = "but4" type="button" value="Постепенное отображение до прозрачности 0,8">
+    </body>
+</html>

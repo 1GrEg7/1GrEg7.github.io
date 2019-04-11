@@ -1,0 +1,177 @@
+.Name{
+    text-align: center;
+    color: rgb(75, 75, 75)
+}
+#menu
+{
+border:1px solid black; 
+color:white;
+width:178px;
+padding:6px;
+margin:0px;
+background-color:#006064;
+font-size:1.1em;
+
+}
+.smaile{
+    text-align: center;
+}
+#list
+{
+border-bottom:4px solid;
+width:192px;
+list-style-type:none;
+margin:0px;
+padding:0px;
+font-size:1.1em;
+}
+#list li
+{
+padding:6px;
+border-bottom-style:solid;
+border-bottom-color:white;
+border-width:1px;
+background-color:#ffd273;
+}
+#img
+{
+margin:0px;
+}
+.header{
+    background: rgba(154, 154, 241, 0.7);
+    height: 370px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.second {
+    display:flex;
+    flex-direction: row;
+}
+.aside_left1 {
+    flex: 3;
+    order: 1;
+}
+.aside_left2{
+    text-align: center;
+    flex:3;
+    order:2;
+}
+.aside_right {
+    text-align: left;
+    flex: 4;
+    order: 3;
+}
+.aside {
+     padding: 10px;
+}
+.main{
+    background: rgba(171, 171, 192, 0.7);
+    height: 950px;
+    position: relative;
+}
+.product{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   
+   
+}
+.box_wrap {
+    padding-top:20px;
+    width: 20%;
+    
+}
+.product_box1{
+    border:1px solid black;
+    height: 500px;
+    width: 350px;
+    border-radius:6px;
+    margin-left:20px;
+    
+}
+.product_box2{
+    border:1px solid black;
+    height: 500px;
+    width: 350px;
+    border-radius:6px;
+    margin-left:20px;
+   
+}
+.product_box3{
+    border:1px solid black;
+    height: 500px;
+    width: 350px;
+    border-radius:6px;
+    margin-left:20px;
+    
+}
+.description1_1{
+    text-align: center;
+}
+.description1_2{
+    text-align: center;
+}
+body{
+    background-image: url(Fon.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.text_footer{
+    color:white;
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    
+    height:300px;
+  
+}
+
+.footer_left{
+    flex: 50%;
+    order:0;
+}
+.footer_right{
+    float: left;
+    flex:50%;
+    order: 1;
+}
+
+.text,
+input[type="checkbox"] {
+  display: none;
+  color:black;
+}
+
+
+input[type="checkbox"]:checked ~ .text {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+
+.btn {
+  color:black;
+  display: inline-block;
+  float: right; 
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  background-color: lightblue;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+}
+
+
+
